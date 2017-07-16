@@ -1,0 +1,399 @@
+/******
+***
+    About : Personal Portfolio
+
+    Author: Hasan Rahmna
+    Date: 15/07/2017
+    Time: 13:38
+***
+*****/
+
+/*******
+********************************************
+******** (=reset) Starts Here
+*********************************************
+*******/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define visible focus styles!
+:focus {
+	outline: ?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/*******
+********************************************
+******** (=header & navigation) Starts Here
+*********************************************
+*******/
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility; /*** nav end ***/
+}
+body {
+    font-family: 'Niconne', cursive;
+    /*font-family: 'Lily Script One', cursive;*/
+    /*font-family: 'Grand Hotel', cursive;*/
+    /*font-family: 'Lobster', cursive;*/
+    /*font-family: 'Pattaya', sans-serif;*/
+    /*font-family: 'Oleo Script Swash Caps', cursive;*/
+    /*font-family: 'Galada', cursive;*/
+    /*font-family: 'Redressed', cursive;*/
+    /*font-family: 'Engagement', cursive;*/
+
+
+    /*font-family: 'Montez', cursive;*/
+    /*font-family: 'Delius Swash Caps', cursive;*/
+    /*font-family: 'Rum Raisin', sans-serif;*/
+    /*font-family: 'Alex Brush', cursive;*/
+    /*font-family: 'Playball', cursive;*/
+    /*font-family: 'Damion', cursive;*/
+    /*font-family: 'Sacramento', cursive;*/
+    /*font-family: 'Great Vibes', cursive;*/
+    /*font-family: 'Lobster Two', cursive;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Kaushan Script', cursive;*/
+    /*font-family: 'Satisfy', cursive;*/
+    font-size: 3em;
+    /*background-color: #9c0fa1;*/
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+
+}
+.jumbotron {
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+h1 {
+    text-decoration: none;
+}
+
+a {
+    outline: none;
+}
+a:hover, a:active, a:focus {
+    outline: none;
+    cursor: hand;
+}
+a:hover{
+    color: #9c0fa1;
+    position: relative;
+    top: -2px;
+}
+header h1 a {
+    margin-top: -25px;
+    float: left;
+    font-size: 1.3em;
+
+
+}
+
+#header1 a:hover, #header1 a:active, #header1 a:before, #header1 a:after, #header1 a:focus{
+    text-decoration: none;
+    color: #9c0fa1;
+    position: relative;
+    top: -2px;
+}
+
+
+#nav1 ul {
+    margin-top: -22.5px;
+    float: right;
+}
+
+#nav1 ul li {
+
+    float: left;
+    border: 2px solid #0d008c;
+    margin-right: 5px;
+
+}
+
+#nav1 ul li:hover {
+    position: relative;
+    top: -2px;
+
+
+}
+#nav1 ul li a {
+    padding-right: 10px;
+    background-color: #ddbfff;
+}
+#nav1 ul li a:hover, #nav1 ul li a:active, #nav1 ul li a:focus {
+    color: #9c0fa1;
+   
+}
+
+/*******
+********************************************
+******** (=home) Starts Here
+*********************************************
+*******/
+
+.home {
+    margin: 0;
+    padding: 0 0 0 0;
+    background-image: url("../images/6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*** for whole image to cover ***/
+
+    clear: both;
+    height: 760px;
+}
+
+#header2 {
+
+    font-size: 3em;
+    padding-top: 200px;
+    padding-bottom: 0;
+
+}
+
+#header2 a {
+    color: #1f0536;
+    text-decoration: none;
+}
+
+#header2 a:hover{
+    text-decoration: none;
+}
+.home p {
+    margin-top: -20px;
+    color: #ddbfff;
+
+}
+p.page-header {
+    padding: 10px 0;
+}
+
+#nav2 ul {
+    text-align: center;
+    padding-left: 105px;
+}
+
+#nav2 ul li {
+
+    border: 2px solid #1f0536;
+    margin-right: 5px;
+
+}
+
+#nav2 ul li:hover {
+    position: relative;
+    top: -2px;
+}
+#nav2 ul li a {
+    padding-right: 10px;
+    background-color: #1f0536;
+}
+#nav2 ul li a:hover, #nav2 ul li a:active, #nav2 ul li a:focus {
+    color: #9c0fa1;
+
+}
+
+/*******
+********************************************
+******** (=about) Starts Here
+*********************************************
+*******/
+
+#about {
+    margin: 0;
+    padding: 0 0 0 0;
+    background-image: url("../images/15.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*** for whole image to cover ***/
+
+
+    clear: both;
+    height: 760px;
+}
+
+#about-myself {
+
+    font-size: 2em;
+    padding: 10px 0 0 10px;
+
+}
+#header3 {
+    text-align: center;
+}
+
+#header3 a {
+    color: #ddbfff;
+    text-decoration: none;
+
+}
+h2.page-header {
+    padding: 0;
+    margin: 0;
+}
+#header3 a:hover{
+    text-decoration: none;
+}
+#about-myself h3{
+    font-size: 0.5em;
+    padding: 10px 0;
+    color: #ddbfff;
+}
+
+#about-myself ul li {
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 30px;
+}
+
+#about-myself img {
+    margin-top: -600px;
+    margin-right: 10px;
+    float: right;
+
+
+}
+
+/*******
+********************************************
+******** (=portfolio) Starts Here
+*********************************************
+*******/
+
+#portfolio {
+    margin: 0;
+    padding: 0 0 0 0;
+    background-image: url("../images/26.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*** for whole image to cover ***/
+
+
+    clear: both;
+    height: 760px;
+}
+
+#my-portfolio h4 {
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #ddbfff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h4.page-header {
+    padding: 10px 0;
+}
+.row {
+    padding-top: 60px;
+
+    margin-left: 120px;
+
+
+}
+
+.row .col-md-4 a {
+    text-decoration: none;
+}
+
+/*******
+********************************************
+******** (=contact) Starts Here
+*********************************************
+*******/
+
+#contact {
+    margin: 0;
+    padding: 0 0 0 0;
+    background-image: url("../images/24.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /*** for whole image to cover ***/
+
+
+    clear: both;
+    height: 760px;
+    color: #8966a1;
+
+}
+
+#my-contact h4 {
+    padding: 20px 0;
+    font-size:1.5em;
+}
+
+#nav3 ul li a {
+    color: #ddbfff;
+}
+
+#nav3 ul li a:hover, #nav3 ul li a:active, #nav3 ul li a:focus {
+    color: #9c0fa1;
+}
+
+/*******
+********************************************
+******** (=footer) Starts Here
+*********************************************
+*******/
+
+#footer {
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    height: 100px;
+    color: #fff;
+    padding-top: 30px;
+}
+#footer a:hover {
+    text-decoration: none;
+}
